@@ -1,0 +1,13 @@
+CREATE  TABLE bank(
+	id int primary key,
+	name varchar(20),
+	amount INT
+);
+
+INSERT INTO bank (id, name, amount)
+VALUES
+	(1, 'Miro', 100),
+	(2, 'Elena', 800)
+;
+
+SELECT * FROM bank
